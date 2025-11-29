@@ -1,0 +1,39 @@
+/**
+ * Message types for communication between content script and background service worker
+ */
+
+const MESSAGE_TYPES = {
+  // Profile data requests
+  FETCH_PROFILE: 'FETCH_PROFILE',
+  FETCH_PROFILE_RESULT: 'FETCH_PROFILE_RESULT',
+  FETCH_PROFILE_ERROR: 'FETCH_PROFILE_ERROR',
+
+  // Batch requests
+  FETCH_PROFILES_BATCH: 'FETCH_PROFILES_BATCH',
+  FETCH_PROFILES_BATCH_RESULT: 'FETCH_PROFILES_BATCH_RESULT',
+
+  // Cache operations
+  GET_CACHED_PROFILE: 'GET_CACHED_PROFILE',
+  GET_CACHED_PROFILES: 'GET_CACHED_PROFILES',
+  CACHE_PROFILE: 'CACHE_PROFILE',
+  CLEAR_CACHE: 'CLEAR_CACHE',
+  GET_CACHE_STATS: 'GET_CACHE_STATS',
+
+  // Settings
+  GET_SETTINGS: 'GET_SETTINGS',
+  UPDATE_SETTINGS: 'UPDATE_SETTINGS',
+  SETTINGS_UPDATED: 'SETTINGS_UPDATED',
+
+  // Status
+  GET_STATUS: 'GET_STATUS',
+  STATUS_UPDATE: 'STATUS_UPDATE',
+
+  // Export/Import
+  EXPORT_DATA: 'EXPORT_DATA',
+  IMPORT_DATA: 'IMPORT_DATA'
+};
+
+// Make available globally
+if (typeof window !== 'undefined') {
+  window.MESSAGE_TYPES = MESSAGE_TYPES;
+}

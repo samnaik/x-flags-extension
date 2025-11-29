@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X Flag Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="header">
+      <h1>X Flag Extension</h1>
+    </header>
+
+    <main class="main">
+      <!-- Display Options -->
+      <section class="section">
+        <h2 class="section-title">Display Options</h2>
+        <div class="options-list">
+          <label class="option">
+            <input type="checkbox" id="showBasedIn" checked>
+            <span class="option-text">
+              <span class="option-icon">🏠</span>
+              Based-in country flag
+            </span>
+          </label>
+          <label class="option">
+            <input type="checkbox" id="showConnectedVia" checked>
+            <span class="option-text">
+              <span class="option-icon">📱</span>
+              Connected-via flag
+            </span>
+          </label>
+          <label class="option">
+            <input type="checkbox" id="showVpnWarning" checked>
+            <span class="option-text">
+              <span class="option-icon">⚠️</span>
+              VPN warning indicator
+            </span>
+          </label>
+          <label class="option">
+            <input type="checkbox" id="showYear" checked>
+            <span class="option-text">
+              <span class="option-icon">📅</span>
+              Account year ('16)
+            </span>
+          </label>
+          <label class="option">
+            <input type="checkbox" id="showMismatchHighlight" checked>
+            <span class="option-text">
+              <span class="option-icon">🎨</span>
+              Highlight country mismatch
+            </span>
+          </label>
+          <label class="option">
+            <input type="checkbox" id="showProtectedIcon" checked>
+            <span class="option-text">
+              <span class="option-icon">🔒</span>
+              Protected account icon
+            </span>
+          </label>
+        </div>
+      </section>
+
+      <!-- Cache Stats -->
+      <section class="section">
+        <h2 class="section-title">Cache Statistics</h2>
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-icon">📊</span>
+            <span class="stat-value" id="totalEntries">-</span>
+            <span class="stat-label">profiles cached</span>
+          </div>
+          <div class="stat">
+            <span class="stat-icon">💾</span>
+            <span class="stat-value" id="cacheSize">-</span>
+            <span class="stat-label">MB used</span>
+          </div>
+        </div>
+        <button id="clearCache" class="btn btn-danger">
+          Clear Cache
+        </button>
+      </section>
+
+      <!-- Data Management -->
+      <section class="section">
+        <h2 class="section-title">Data Management</h2>
+        <div class="btn-group">
+          <button id="exportData" class="btn btn-secondary">
+            Export Data
+          </button>
+          <button id="importData" class="btn btn-secondary">
+            Import Data
+          </button>
+        </div>
+        <input type="file" id="importFile" accept=".json" style="display: none;">
+      </section>
+
+      <!-- Debug Mode -->
+      <section class="section section-debug">
+        <label class="option">
+          <input type="checkbox" id="debugMode">
+          <span class="option-text">
+            <span class="option-icon">🐛</span>
+            Debug mode
+          </span>
+        </label>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>v1.0.0</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
