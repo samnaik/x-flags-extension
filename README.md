@@ -2,7 +2,14 @@
 
 Display country flags next to usernames on X.com (Twitter).
 
-<img src="icons/icon128.png" alt="XFlag" width="128">
+<img src="icons/icon128.png" alt="XFlag" width="64">
+
+## Screenshots
+
+<p>
+<img src="screenshots/screenshot-1.png" alt="XFlag in action" width="400">
+<img src="screenshots/screenshot-2.png" alt="XFlag showing Pakistan flag" width="400">
+</p>
 
 ## Features
 
