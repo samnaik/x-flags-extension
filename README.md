@@ -2,16 +2,6 @@
 
 Display country flags next to usernames on X.com (Twitter).
 
-## Screenshots
-
-![Screenshot 2](screenshots/screenshot-2.png)
-
-![Screenshot 3](screenshots/screenshot-3.png)
-
-![Screenshot 4](screenshots/screenshot-4.png)
-
-![Screenshot 5](screenshots/screenshot-5.png)
-
 ## Features
 
 - Shows country flags based on user profile location
@@ -48,6 +38,16 @@ Display country flags next to usernames on X.com (Twitter).
 1. Go to [x.com](https://x.com) and log in
 2. Browse any feed, search results, or profile
 3. Hover over usernames to see country flags appear
+
+## Screenshots
+
+![Screenshot 2](screenshots/screenshot-2.png)
+
+![Screenshot 3](screenshots/screenshot-3.png)
+
+![Screenshot 4](screenshots/screenshot-4.png)
+
+![Screenshot 5](screenshots/screenshot-5.png)
 
 ## Privacy
 
