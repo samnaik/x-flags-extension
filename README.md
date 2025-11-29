@@ -2,8 +2,6 @@
 
 Display country flags next to usernames on X.com (Twitter).
 
-<img src="icons/icon128.png" alt="XFlag" width="64">
-
 ## Screenshots
 
 <p>
