@@ -22,10 +22,10 @@ Display country flags next to usernames on X.com (Twitter).
 
 ## Installation
 
-### Chrome
+### Chrome & Brave
 
 1. Download the latest release or clone this repository
-2. Open Chrome and go to `chrome://extensions/`
+2. Open Chrome/Brave and go to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top right)
 4. Click "Load unpacked"
 5. Select the `x-plugin` folder
