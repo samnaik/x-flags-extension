@@ -4,15 +4,11 @@ Display country flags next to usernames on X.com (Twitter).
 
 ## Screenshots
 
-<p>
-<img src="screenshots/screenshot-1.png" alt="XFlag screenshot 1" width="280">
-<img src="screenshots/screenshot-2.png" alt="XFlag screenshot 2" width="280">
-<img src="screenshots/screenshot-3.png" alt="XFlag screenshot 3" width="280">
-</p>
-<p>
-<img src="screenshots/screenshot-4.png" alt="XFlag screenshot 4" width="280">
-<img src="screenshots/screenshot-5.png" alt="XFlag screenshot 5" width="280">
-</p>
+<img src="screenshots/screenshot-1.png" alt="XFlag screenshot 1" width="600"><br>
+<img src="screenshots/screenshot-2.png" alt="XFlag screenshot 2" width="600"><br>
+<img src="screenshots/screenshot-3.png" alt="XFlag screenshot 3" width="600"><br>
+<img src="screenshots/screenshot-4.png" alt="XFlag screenshot 4" width="600"><br>
+<img src="screenshots/screenshot-5.png" alt="XFlag screenshot 5" width="600">
 
 ## Features
 
