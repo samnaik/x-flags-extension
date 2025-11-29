@@ -41,13 +41,7 @@ Display country flags next to usernames on X.com (Twitter).
 
 ## Screenshots
 
-![Screenshot 2](screenshots/screenshot-2.png)
-
-![Screenshot 3](screenshots/screenshot-3.png)
-
-![Screenshot 4](screenshots/screenshot-4.png)
-
-![Screenshot 5](screenshots/screenshot-5.png)
+![Screenshot](screenshots/screen-shot.png)
 
 ## Privacy
 
