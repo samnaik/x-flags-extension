@@ -1,4 +1,4 @@
-# XFlag
+# X Flags Extension
 
 Display country flags next to usernames on X.com (Twitter).
 
